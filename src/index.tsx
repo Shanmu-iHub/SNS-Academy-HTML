@@ -109,46 +109,49 @@ app.get('/academics/secondary', (c) => {
                 <p class="text-xl text-gray-600">Specialized pathways for your future career</p>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-lg">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <i class="fas fa-flask text-4xl text-blue-600"></i>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+                <!-- Science Stream -->
+                <div class="bg-cyan-50 rounded-2xl p-6 sm:p-8 lg:p-10 hover:shadow-md transition duration-300">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-8 shadow-sm">
+                        <i class="fas fa-flask text-3xl text-blue-600"></i>
                     </div>
-                                        <h3 class="text-2xl font-bold mb-4">Science Stream</h3>
-                    <p class="text-gray-700 mb-4 font-semibold">Physics, Chemistry, Mathematics / Biology with Computer Science</p>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• Engineering & technology preparation</li>
-                        <li>• Medical & allied health pathways</li>
-                        <li>• Life sciences & research opportunities</li>
-                        <li>• Computer science-enabled STEM careers</li>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Science Stream</h3>
+                    <p class="text-gray-600 mb-6 font-semibold line-clamp-2 ">Physics, Chemistry, Mathematics / Biology with Computer Science</p>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Engineering & technology preparation</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Medical & allied health pathways</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Life sciences & research opportunities</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Computer science-enabled STEM careers</li>
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-lg">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <i class="fas fa-calculator text-4xl text-purple-600"></i>
+                <!-- Commerce Stream -->
+                <div class="bg-purple-50 rounded-2xl p-6 sm:p-8 lg:p-10 hover:shadow-md transition duration-300">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-8 shadow-sm">
+                        <i class="fas fa-calculator text-3xl text-purple-600"></i>
                     </div>
-                                        <h3 class="text-2xl font-bold mb-4">Commerce Stream</h3>
-                    <p class="text-gray-700 mb-4 font-semibold">Accountancy, Business Studies, Economics with Mathematics</p>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• CA / CS / CMA professional preparation</li>
-                        <li>• Business & management foundations</li>
-                        <li>• Finance, banking & economics pathways</li>
-                        <li>• Analytics, entrepreneurship & startups</li>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Commerce Stream</h3>
+                    <p class="text-gray-600 mb-6 font-semibold line-clamp-2 ">Accountancy, Business Studies, Economics with Mathematics</p>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> CA / CS / CMA professional preparation</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Business & management foundations</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Finance, banking & economics pathways</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Analytics, entrepreneurship & startups</li>
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 shadow-lg">
-                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <i class="fas fa-book text-4xl text-orange-600"></i>
+                <!-- Humanities Stream -->
+                <div class="bg-orange-50 rounded-2xl p-6 sm:p-8 lg:p-10 hover:shadow-md transition duration-300">
+                    <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-8 shadow-sm">
+                        <i class="fas fa-book text-3xl text-orange-600"></i>
                     </div>
-                                        <h3 class="text-2xl font-bold mb-4">Humanities Stream</h3>
-                    <p class="text-gray-700 mb-4 font-semibold">History, Political Science, Economics, Psychology</p>
-                    <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• Civil services & government exam preparation</li>
-                        <li>• Law, public policy & governance pathways</li>
-                        <li>• Psychology & mental health foundations</li>
-                        <li>• Social sciences research & critical thinking</li>
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Humanities Stream</h3>
+                    <p class="text-gray-600 mb-6 font-semibold line-clamp-2 ">History, Political Science, Economics, Psychology</p>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Civil services & government exam preparation</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Law, public policy & governance pathways</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Psychology & mental health foundations</li>
+                        <li class="flex items-start"><span class="mr-2 text-gray-400">•</span> Social sciences research & critical thinking</li>
                     </ul>
                 </div>
             </div>

@@ -141,7 +141,7 @@ export const InnovationPage = () => {
     <section class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold text-center mb-12">Innovation Labs</h2>
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
                 <div class="bg-white rounded-xl p-8">
                     <h3 class="text-2xl font-bold mb-4">I-TECH Labs</h3>
                     <p class="text-gray-700">Inter-disciplinary research space for AR/VR, AI, IoT, Robotics, and 3D printing innovations.</p>
