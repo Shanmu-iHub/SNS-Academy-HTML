@@ -114,13 +114,13 @@ app.get('/academics/secondary', (c) => {
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
                         <i class="fas fa-flask text-4xl text-blue-600"></i>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">Science Stream</h3>
-                    <p class="text-gray-700 mb-4">Physics, Chemistry, Mathematics/Biology with Computer Science</p>
+                                        <h3 class="text-2xl font-bold mb-4">Science Stream</h3>
+                    <p class="text-gray-700 mb-4 font-semibold">Physics, Chemistry, Mathematics / Biology with Computer Science</p>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• Engineering preparation</li>
-                        <li>• Medical entrance coaching</li>
-                        <li>• Research opportunities</li>
-                        <li>• Lab-intensive learning</li>
+                        <li>• Engineering & technology preparation</li>
+                        <li>• Medical & allied health pathways</li>
+                        <li>• Life sciences & research opportunities</li>
+                        <li>• Computer science-enabled STEM careers</li>
                     </ul>
                 </div>
 
@@ -128,13 +128,13 @@ app.get('/academics/secondary', (c) => {
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
                         <i class="fas fa-calculator text-4xl text-purple-600"></i>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">Commerce Stream</h3>
-                    <p class="text-gray-700 mb-4">Accountancy, Business Studies, Economics with Mathematics</p>
+                                        <h3 class="text-2xl font-bold mb-4">Commerce Stream</h3>
+                    <p class="text-gray-700 mb-4 font-semibold">Accountancy, Business Studies, Economics with Mathematics</p>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• CA/CS preparation</li>
-                        <li>• Business management</li>
-                        <li>• Financial literacy</li>
-                        <li>• Startup incubation</li>
+                        <li>• CA / CS / CMA professional preparation</li>
+                        <li>• Business & management foundations</li>
+                        <li>• Finance, banking & economics pathways</li>
+                        <li>• Analytics, entrepreneurship & startups</li>
                     </ul>
                 </div>
 
@@ -142,13 +142,13 @@ app.get('/academics/secondary', (c) => {
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
                         <i class="fas fa-book text-4xl text-orange-600"></i>
                     </div>
-                    <h3 class="text-2xl font-bold mb-4">Humanities Stream</h3>
-                    <p class="text-gray-700 mb-4">History, Political Science, Economics, Psychology</p>
+                                        <h3 class="text-2xl font-bold mb-4">Humanities Stream</h3>
+                    <p class="text-gray-700 mb-4 font-semibold">History, Political Science, Economics, Psychology</p>
                     <ul class="space-y-2 text-sm text-gray-600">
-                        <li>• Civil services preparation</li>
-                        <li>• Law entrance coaching</li>
-                        <li>• Social sciences research</li>
-                        <li>• Critical thinking skills</li>
+                        <li>• Civil services & government exam preparation</li>
+                        <li>• Law, public policy & governance pathways</li>
+                        <li>• Psychology & mental health foundations</li>
+                        <li>• Social sciences research & critical thinking</li>
                     </ul>
                 </div>
             </div>
