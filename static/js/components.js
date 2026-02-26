@@ -11,7 +11,7 @@ headerTemplate.innerHTML = `
 
     <!-- Hanging Tag 2: Brochure -->
     <div class="fixed top-[36%] right-0 z-50 swing" style="animation-delay: 0.3s;">
-        <a href="https://snsacademy.org/brochure/" target="_blank"
+        <a href="/static/SNS%20Academy%20Brochure%202026.pdf" target="_blank"
             class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white px-4 py-8 rounded-l-2xl shadow-2xl flex flex-col items-center space-y-3 group transition-all">
             <i class="fas fa-file-pdf text-2xl group-hover:scale-110 transition-transform duration-300"></i>
             <span class="font-extrabold text-sm uppercase tracking-widest"
@@ -329,17 +329,17 @@ class AppHeader extends HTMLElement {
         this.setupMobileMenu();
         this.setActiveLink();
     }
-    
+
     setupMobileMenu() {
         const mobileMenuBtn = this.querySelector('#mobile-menu-btn');
         const mobileMenu = this.querySelector('#mobile-menu');
-        
+
         if (mobileMenuBtn && mobileMenu) {
             mobileMenuBtn.addEventListener('click', () => {
                 mobileMenu.classList.toggle('hidden');
             });
         }
-        
+
         // Close mobile menu when clicking a link
         this.querySelectorAll('#mobile-menu a').forEach(link => {
             link.addEventListener('click', () => {
@@ -347,12 +347,12 @@ class AppHeader extends HTMLElement {
             });
         });
     }
-    
+
     setActiveLink() {
         const path = window.location.pathname;
         const links = this.querySelectorAll('.hidden.md\\:flex a'); // Only highlight desktop links for now to keep it clean
         let currentLink = null;
-        
+
         links.forEach(link => {
             const href = link.getAttribute('href');
             if (href && href !== '/' && path.includes(href)) {
@@ -361,7 +361,7 @@ class AppHeader extends HTMLElement {
                 }
             }
         });
-        
+
         if (path === '/' || path === '/index.html') {
             const homeLinks = Array.from(links).filter(link => link.getAttribute('href') === '/');
             homeLinks.forEach(link => {
@@ -371,7 +371,7 @@ class AppHeader extends HTMLElement {
         } else if (currentLink) {
             currentLink.classList.add('text-orange-600', 'font-bold');
             currentLink.classList.remove('text-gray-700');
-            
+
             // Highlight parent dropdown button
             const dropdown = currentLink.closest('.relative.group');
             if (dropdown) {

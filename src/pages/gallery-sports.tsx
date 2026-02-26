@@ -534,13 +534,9 @@ export const BrochurePage = () => {
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                    <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
+                    <a href="/static/SNS%20Academy%20Brochure%202026.pdf" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                         <i class="fas fa-download mr-2"></i>
                         Download Brochure
-                    </a>
-                    <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
-                        <i class="fas fa-external-link-alt mr-2"></i>
-                        View Online
                     </a>
                 </div>
                 
