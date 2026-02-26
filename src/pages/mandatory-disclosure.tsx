@@ -88,22 +88,22 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
                             <td class="border border-gray-300 px-4 py-3">Copies of Affiliation/Upgradation Letter and Recent Extension of Affiliation</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/affiliationUpgradation/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/cbse%20affiliation.PDF" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
                             <td class="border border-gray-300 px-4 py-3">Copies of Trust Registration/Renewal Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/TRUST_DEED/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/TRUST%20DEED%20(1)-1.pdf" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
                             <td class="border border-gray-300 px-4 py-3">Copy of No Objection Certificate (NOC) Issued by State Govt.</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/noc/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/COPY%20OF%20NO%20OBJECTION%20CERTIFICATE%20(NOC)%20ISSUED,%20IF%20APPLICABLE,%20BY%20THE%20STATE%20GOVT.UT.PDF" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
                             <td class="border border-gray-300 px-4 py-3">Copies of Recognition Certificate Under RTE Act, 2009</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/recognitionCertificate/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/COPIES%20OF%20RECOGNITION%20CERTIFICATE%20UNDER%20RTE%20ACT,%202009,%20AND%20IT%20S%20RENEWAL%20IF%20APPLICABLE.PDF" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
@@ -113,17 +113,17 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">6</td>
                             <td class="border border-gray-300 px-4 py-3">Copy of Valid Fire Safety Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FireSafetyCertificate/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/fire%20NOC.PDF" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">7</td>
                             <td class="border border-gray-300 px-4 py-3">Copy of DEO Certificate / Self Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SelfCertification/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/deo.PDF" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">8</td>
                             <td class="border border-gray-300 px-4 py-3">Copies of Valid Water, Health and Sanitation Certificates</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/WaterHealthSanitationCertificates/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/sanitary.PDF" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -153,27 +153,27 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Fee Structure of the School</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FeeStructure/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                             <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/FEE%20STRUCTURE%202025-26.JPG" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Annual Academic Calendar</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/AcademicCalender/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/EVENTFUL%20DAYS%202025.pdf" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">List of School Management Committee (SMC)</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SchoolManagementCommittee/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                             <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/SMC.PDF" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">List of Parents Teachers Association (PTA) Members</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/ParentsTeachersAssociation/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/PTA%202025-26.JPG" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Last Three-Year Result of Board Examination</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/Three-YearResult/" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/RESULTS%202023-2025.JPG" target="_blank" class="text-orange-600 hover:underline font-semibold">View Document</a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -284,7 +284,7 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">Teachers Section Ratio</td>
-                            <td class="border border-gray-300 px-4 py-3">1:1.5</td>
+                            <td class="border border-gray-300 px-4 py-3">10:1</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
