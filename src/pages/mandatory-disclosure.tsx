@@ -350,7 +350,7 @@ export const MandatoryDisclosurePage = () => {
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">7</td>
                             <td class="border border-gray-300 px-4 py-3 font-semibold">YouTube Video of School Inspection</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://www.youtube.com/watch?v=773fZL9JzuQ" target="_blank" class="text-orange-600 hover:underline font-semibold">Watch Video</a></td>
+                            <td class="border border-gray-300 px-4 py-3"><a href="https://youtu.be/773fZL9JzuQ?si=FFe5X3QM20ePscBW" target="_blank" class="text-orange-600 hover:underline font-semibold">Watch Video</a></td>
                         </tr>
                     </tbody>
                 </table>
