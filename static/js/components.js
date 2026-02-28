@@ -1,4 +1,25 @@
 
+// Automatic Update & Cache Clear Script
+(function () {
+    const CURRENT_VERSION = "2026.02.28.01"; // UPDATE THIS NUMBER TO CLEAR CACHE FOR ALL USERS
+    const storedVersion = localStorage.getItem('site_version');
+
+    if (storedVersion && storedVersion !== CURRENT_VERSION) {
+        localStorage.setItem('site_version', CURRENT_VERSION);
+        console.log("New version detected. Clearing cache...");
+
+        // Force a hard reload from the server
+        window.location.reload(true);
+
+        // If the browser doesn't support reload(true), use a cache-busting URL
+        if (!window.location.search.includes('v=')) {
+            window.location.href = window.location.pathname + '?v=' + CURRENT_VERSION;
+        }
+    } else {
+        localStorage.setItem('site_version', CURRENT_VERSION);
+    }
+})();
+
 const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
 <!-- Hanging Tag 1: CBSE -->

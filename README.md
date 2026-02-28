@@ -399,6 +399,25 @@ git push -f origin main
 **Made with ❤️ using Design Thinking Principles**
 **SNS Motto**: Sincerity, Nobility, Service
 **SNS Tagline**: Redesigning Common Minds | We are Design Thinkers
-# SNS-Academy
-# SNS-School
 # SNS-Academy-HTML
+
+---
+
+### 🔄 How to Force Website Updates (Cache Clear)
+
+Since browsers store old versions of static HTML files, I have added an **Automatic Update System**.
+
+**To clear the cache for all visitors after you make a change:**
+
+1.  Open `/static/js/components.js`.
+2.  At the very top, look for this line:
+    ```javascript
+    const CURRENT_VERSION = "2026.02.28.01"; // CHANGE THIS NUMBER
+    ```
+3.  **Update the number** (e.g., change `01` to `02`).
+4.  Upload the updated file to your server.
+
+**What happens next?**
+-   The website will detect the new version number.
+-   It will **automatically clear the visitor's local storage**.
+-   It will **Hard Refresh** the page so they see the newest content immediately.
