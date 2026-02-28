@@ -11,6 +11,33 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
         <title>${title} | SNS Academy - Design Thinking CBSE School Coimbatore</title>
         <meta name="description" content="SNS Academy - India's first Design Thinking CBSE school in Coimbatore. Nursery to Grade XII with world-class facilities.">
         
+        <!-- Cache Control -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+
+        <!-- Automatic Update Script -->
+        <script>
+            // Check for updates and clear cache if version changes
+            (function() {
+                const CURRENT_VERSION = "2026.02.28.01"; // Update this string whenever you deploy a new version
+                const storedVersion = localStorage.getItem('website_version');
+                
+                if (storedVersion && storedVersion !== CURRENT_VERSION) {
+                    console.log('New version detected. Clearing cache and reloading...');
+                    localStorage.setItem('website_version', CURRENT_VERSION);
+                    
+                    // Clear all storage
+                    sessionStorage.clear();
+                    
+                    // Force reload from server
+                    window.location.reload(true);
+                } else if (!storedVersion) {
+                    localStorage.setItem('website_version', CURRENT_VERSION);
+                }
+            })();
+        </script>
+        
         <!-- Tailwind CSS -->
         <script src="https://cdn.tailwindcss.com"></script>
         

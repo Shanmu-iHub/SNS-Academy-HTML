@@ -14,12 +14,24 @@ import { StanfordPathwayPage } from './pages/stanford-pathway'
 
 const app = new Hono()
 
+// Enable CORS for API routes
+app.use('/api/*', cors())
+
+// Middleware to prevent caching of HTML responses
+app.use('*', async (c, next) => {
+    await next()
+    const contentType = c.res.headers.get('Content-Type')
+    if (contentType && contentType.includes('text/html')) {
+        c.header('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate')
+        c.header('Pragma', 'no-cache')
+        c.header('Expires', '0')
+        c.header('Surrogate-Control', 'no-store')
+    }
+})
+
 // Diagnostic route
 app.get('/health', (c) => c.text('Hono is running!'))
 app.get('/api/test', (c) => c.json({ status: 'ok', runtime: 'edge' }))
-
-// Enable CORS for API routes
-app.use('/api/*', cors())
 
 // API route for admission inquiry
 app.post('/api/admission-inquiry', async (c) => {
