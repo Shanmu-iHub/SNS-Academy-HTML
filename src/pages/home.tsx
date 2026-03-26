@@ -72,8 +72,8 @@ export const HomePage = () => {
                                 <div class="text-xs text-gray-200 mt-1">Student Teacher Ratio</div>
                             </div>
                             <div class="bg-white/10 border border-white/10 rounded-xl p-5 text-center transition-all duration-300 ease-out hover:scale-105 hover:bg-white/20 hover:shadow-xl hover:border-white/30 cursor-pointer">
-                                <div class="text-4xl font-extrabold text-white transition-transform duration-300 hover:scale-110">60%</div>
-                                <div class="text-xs text-gray-200 mt-1">10+ Years Experience</div>
+                                <div class="text-4xl font-extrabold text-white transition-transform duration-300 hover:scale-110">60%+</div>
+                                <div class="text-xs text-gray-200 mt-1">Faculty with 10+ Years Exp</div>
                             </div>
                             <div class="bg-white/10 border border-white/10 rounded-xl p-5 text-center transition-all duration-300 ease-out hover:scale-105 hover:bg-white/20 hover:shadow-xl hover:border-white/30 cursor-pointer">
                                 <div class="text-4xl font-extrabold text-white transition-transform duration-300 hover:scale-110">25+</div>
@@ -154,7 +154,7 @@ export const HomePage = () => {
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">10:1 Personalized Care</h3>
                     <p class="text-gray-600 leading-relaxed">
-                        Ultra-low student-teacher ratio ensures every child receives individual attention. 60% of our faculty have 10+ years of experience.
+                        Ultra-low student-teacher ratio ensures every child receives individual attention. Over 60% of our faculty have 10+ years of teaching experience.
                     </p>
                 </div>
                 
