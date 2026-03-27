@@ -472,6 +472,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <li><a href="/brochure" class="hover:text-white transition">Download Brochure</a></li>
                             <li><a href="/admissions" class="hover:text-white transition">Admissions</a></li>
                             <li><a href="/contact" class="hover:text-white transition">Contact</a></li>
+                            <li><a href="/mandatory-disclosure" class="hover:text-white transition">Mandatory Disclosure</a></li>
                         </ul>
                     </div>
                     
@@ -483,8 +484,7 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <li><a href="/academics/middle" class="hover:text-white transition">Middle School</a></li>
                             <li><a href="/academics/secondary" class="hover:text-white transition">Secondary & Senior Secondary</a></li>
                             <li><a href="/stanford-pathway" class="hover:text-white transition">Pathway to Stanford</a></li>
-                            <li><a href="/mandatory-disclosure" class="hover:text-white transition">Mandatory Disclosure</a></li>
-                        </ul>
+                            
                     </div>
                     
                     <div>
