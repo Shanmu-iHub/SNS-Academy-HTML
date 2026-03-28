@@ -67,7 +67,7 @@ export const InnovationPage = () => {
                     <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-seedling text-3xl text-green-600"></i>
                     </div>
-                    <h3 class="font-bold text-lg text-center mb-3">Agriculture & Food</h3>
+                    <h3 class="font-bold text-lg text-center mb-3">Agriculture & Food Technology</h3>
                     <p class="text-sm text-gray-600 text-center">Precision farming, food tech, supply chain</p>
                 </div>
                 
@@ -75,7 +75,7 @@ export const InnovationPage = () => {
                     <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-shopping-cart text-3xl text-orange-600"></i>
                     </div>
-                    <h3 class="font-bold text-lg text-center mb-3">Retail FMCG</h3>
+                    <h3 class="font-bold text-lg text-center mb-3">Retail FMCG,Real-Estate,Entertainment & Finance(BFSI)/h3>
                     <p class="text-sm text-gray-600 text-center">E-commerce, consumer goods, retail analytics</p>
                 </div>
                 
@@ -83,8 +83,8 @@ export const InnovationPage = () => {
                     <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-car text-3xl text-orange-600"></i>
                     </div>
-                    <h3 class="font-bold text-lg text-center mb-3">Automotive & Aerospace</h3>
-                    <p class="text-sm text-gray-600 text-center">Autonomous vehicles, aerospace engineering</p>
+                    <h3 class="font-bold text-lg text-center mb-3">Automobile</h3>
+                    <p class="text-sm text-gray-600 text-center">Aerospace & Defence</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
@@ -123,7 +123,7 @@ export const InnovationPage = () => {
                     <div class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-bolt text-3xl text-cyan-600"></i>
                     </div>
-                    <h3 class="font-bold text-lg text-center mb-3">Power, Oil, Energy</h3>
+                    <h3 class="font-bold text-lg text-center mb-3">Power/Energy</h3>
                     <p class="text-sm text-gray-600 text-center">Energy management, renewables, utilities</p>
                 </div>
                 
