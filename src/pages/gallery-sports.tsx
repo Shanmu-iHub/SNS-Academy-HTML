@@ -295,7 +295,7 @@ export const SportsClubsPage = () => {
     ${PageHeader(
         'Sports & Clubs',
         'Building champions in sports, arts, and life skills',
-        '/static/images/gym.jpg',
+        '/static/images/46.JPG',
         'Sports & Clubs'
     )}
 
