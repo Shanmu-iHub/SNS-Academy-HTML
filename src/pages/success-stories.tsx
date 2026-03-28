@@ -16,14 +16,14 @@ export const SuccessStoriesPage = () => {
             <div class="bg-gradient-to-br from-orange-100 to-red-100 rounded-3xl overflow-hidden shadow-2xl">
                 <div class="grid lg:grid-cols-2 gap-8">
                     <div class="h-96 lg:h-auto relative overflow-hidden">
-                        <img src="/static/images/SNS Academy Web/Hats off to S. Lakshan of Grade III, of SNS Academy  for dominating the board and emerging as t.webp" alt="Chess Champion" class="w-full h-full object-cover">
+                        <img src="/static/images/SNS Academy Web/Kindergarten_Graduation_2026.webp" alt="Kindergarten Graduation" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-6 left-6 text-white">
                             <div class="flex items-center mb-2">
                                 <i class="fas fa-award mr-2"></i>
-                                <span class="text-sm font-semibold">Chess Championship</span>
+                                <span class="text-sm font-semibold">SNS Academy</span>
                             </div>
-                            <p class="text-xs opacity-90">District Level Children's Chess Tournament</p>
+                            <p class="text-xs opacity-90">Kindergarten Graduation Ceremony 2026</p>
                         </div>
                     </div>
                     <div class="p-8 lg:p-12 flex flex-col justify-center">
@@ -31,19 +31,19 @@ export const SuccessStoriesPage = () => {
                             <i class="fas fa-star mr-2"></i>
                             Featured Story
                         </div>
-                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Chess Championship - District Level Winner</h2>
+                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Kindergarten Graduation Ceremony 2026</h2>
                         <p class="text-gray-700 text-lg mb-6 leading-relaxed">
-                            Hats off to S. Lakshan of Grade III, of SNS Academy for dominating the board and emerging as the Champion at the District Level Children's Chess Tournament! His strategic mind and focus are truly remarkable. We are thrilled to celebrate his brilliant victory! Way to go, Lakshan!
+                            SNS Academy celebrated its Kindergarten Graduation Ceremony on March 25, 2026, at the SNS Academy Auditorium. A proud moment for our young learners as they transition to the next chapter of their academic journey.
                         </p>
                         <div class="flex items-center text-sm text-gray-600 mb-6">
                             <span class="font-semibold mr-4">SNS Academy</span>
                             <span class="mr-4">•</span>
-                            <span>Winner</span>
+                            <span>Graduation Ceremony</span>
                             <span class="mr-4 ml-4">•</span>
-                            <span>Dec 2025</span>
+                            <span>Mar 2026</span>
                         </div>
-                        <a href="https://www.instagram.com/p/DSlao-kkxPY/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-purple-600 hover:text-purple-700 font-bold">
-                            Read Full Story <i class="fas fa-arrow-right ml-2"></i>
+                        <a href="/success-stories" class="inline-flex items-center text-purple-600 hover:text-purple-700 font-bold">
+                            View More Success Stories <i class="fas fa-arrow-right ml-2"></i>
                         </a>
                     </div>
                 </div>
