@@ -80,6 +80,15 @@ export const SuccessStoriesPage = () => {
         const stories = {
             academic: [
                 {
+                    title: "Kindergarten Graduation Ceremony 2026",
+                    description: "SNS Academy celebrated its Kindergarten Graduation Ceremony on March 25, 2026, at the SNS Academy Auditorium. A proud moment for our young learners as they transition to the next chapter of their academic journey.",
+                    image: "/static/images/SNS Academy Web/Kindergarten_Graduation_2026.webp",
+                    date: "March 2026",
+                    category: "Academic",
+                    color: "blue",
+                    link: ""
+                },
+                {
                     title: "Award Ceremony - Dinamalar Pattam",
                     description: "The Dinamalar Pattam – Final Round was successfully held at SNS Academy. The event concluded on a high note with prizes presented by Pavan Kumar, District Collector, Coimbatore, along with Dr. Nalin, Technical Director, SNS Institutions.",
                     image: "https://scontent-maa3-2.cdninstagram.com/v/t51.82787-15/626891271_18344067850235871_1200955119167657763_n.webp?_nc_cat=110&ig_cache_key=MzgyNDA2ODExMTg0NzYwNDczNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwNzl4NzE5LnNkci5DMyJ9&_nc_ohc=imXjG4cdVmsQ7kNvwGqq_yg&_nc_oc=AdnK4WzY-XG-lSMFN_S34f7N4fb3U3JLWATVPcI8wsZ5y8r_uqjbRsT4WKT62ncWDdk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-2.cdninstagram.com&_nc_gid=Ub07e9jp45HNLRXJHY7Zmw&oh=00_AfuoX1uSIlRO_7mn6t9MhTY8K2_KnHizCmIHqR9wTTso8A&oe=6987641B",
