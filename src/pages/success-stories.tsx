@@ -16,14 +16,14 @@ export const SuccessStoriesPage = () => {
             <div class="bg-gradient-to-br from-orange-100 to-red-100 rounded-3xl overflow-hidden shadow-2xl">
                 <div class="grid lg:grid-cols-2 gap-8">
                     <div class="h-96 lg:h-auto relative overflow-hidden">
-                        <img src="https://scontent-maa3-2.cdninstagram.com/v/t51.82787-15/618548952_17913080631271418_4275555023929199059_n.webp?_nc_cat=110&ig_cache_key=MzgxNDEzNTM1MDc3MjYyMjE5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=qL3MgYlQMwsQ7kNvwFRBblW&_nc_oc=Adnyply_5YwqDHFFfjCmwR3y9kdAaViAA18ZLBpmiNAJ8OKMSlQHOWWq8obsflCUyno&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-2.cdninstagram.com&_nc_gid=Ub07e9jp45HNLRXJHY7Zmw&oh=00_AfucDmHsYEG1wNs0iP4NQkOwDav0Oap6l_ndXzK01eckrA&oe=698790DD" alt="Book of Record" class="w-full h-full object-cover">
+                        <img src="/static/images/SNS Academy Web/Hats off to S. Lakshan of Grade III, of SNS Academy  for dominating the board and emerging as t.webp" alt="Chess Champion" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                         <div class="absolute bottom-6 left-6 text-white">
                             <div class="flex items-center mb-2">
                                 <i class="fas fa-award mr-2"></i>
-                                <span class="text-sm font-semibold">Book of Record</span>
+                                <span class="text-sm font-semibold">Chess Championship</span>
                             </div>
-                            <p class="text-xs opacity-90">Dinamalar Pattam - Final Round</p>
+                            <p class="text-xs opacity-90">District Level Children's Chess Tournament</p>
                         </div>
                     </div>
                     <div class="p-8 lg:p-12 flex flex-col justify-center">
@@ -31,18 +31,18 @@ export const SuccessStoriesPage = () => {
                             <i class="fas fa-star mr-2"></i>
                             Featured Story
                         </div>
-                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Book of Record Achievement</h2>
+                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Chess Championship - District Level Winner</h2>
                         <p class="text-gray-700 text-lg mb-6 leading-relaxed">
-                            The Dinamalar Pattam – Final Round was successfully held at SNS Academy. The event concluded on a high note with prizes presented by Pavan Kumar, District Collector, Coimbatore, along with Dr. Nalin, Technical Director, SNS Institutions.
+                            Hats off to S. Lakshan of Grade III, of SNS Academy for dominating the board and emerging as the Champion at the District Level Children's Chess Tournament! His strategic mind and focus are truly remarkable. We are thrilled to celebrate his brilliant victory! Way to go, Lakshan!
                         </p>
                         <div class="flex items-center text-sm text-gray-600 mb-6">
                             <span class="font-semibold mr-4">SNS Academy</span>
                             <span class="mr-4">•</span>
-                            <span>Award Ceremony</span>
+                            <span>Winner</span>
                             <span class="mr-4 ml-4">•</span>
-                            <span>Jan 2026</span>
+                            <span>Dec 2025</span>
                         </div>
-                        <a href="https://www.instagram.com/p/DTuh-S0D-N0/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-purple-600 hover:text-purple-700 font-bold">
+                        <a href="https://www.instagram.com/p/DSlao-kkxPY/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-purple-600 hover:text-purple-700 font-bold">
                             Read Full Story <i class="fas fa-arrow-right ml-2"></i>
                         </a>
                     </div>
