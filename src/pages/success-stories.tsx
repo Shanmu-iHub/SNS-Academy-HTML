@@ -100,7 +100,7 @@ export const SuccessStoriesPage = () => {
                 {
                     title: "Chess Championship - District Level Winner",
                     description: "Hats off to S. Lakshan of Grade III, of SNS Academy for dominating the board and emerging as the Champion at the District Level Children's Chess Tournament! His strategic mind and focus are truly remarkable. We are thrilled to celebrate his brilliant victory! Way to go, Lakshan!",
-                    image: "https://scontent-maa3-4.cdninstagram.com/v/t51.82787-15/604081912_17909866551271418_8637630666294558801_n.webp?_nc_cat=102&ig_cache_key=Mzc5MzU1NTQyNjMwMzQ4MDc5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=juJrhcGP48kQ7kNvwFv4eM2&_nc_oc=Adm2H91h59iGs5TJJAs5_OghcuzC8nC70bzV9PD3SbpNSsDo0Xu-Ud6wld_LxUB-UPw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-4.cdninstagram.com&_nc_gid=92vzA0E3IgpdlBU0520mWg&oh=00_AftWtCfBAdbctc3bHfZ9sHfOiqR_xAPyZZZBmifqM4x4Dg&oe=69878C70",
+                    image: "/static/images/SNS Academy Web/Hats off to S. Lakshan of Grade III, of SNS Academy  for dominating the board and emerging as t.webp",
                     date: "December 2025",
                     category: "Academic",
                     color: "blue",
