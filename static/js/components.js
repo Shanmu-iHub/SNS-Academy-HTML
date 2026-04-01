@@ -293,7 +293,7 @@ footerTemplate.innerHTML = `
                         <li><a href="tel:+919003655855" class="hover:text-white transition"><i
                                     class="fas fa-phone mr-2"></i>Admission : 90036 55855</a></li>
                         <li><a href="tel:+917530093730" class="hover:text-white transition"><i
-                                    class="fas fa-phone mr-2"></i>Office : +91 75300 93730</a></li>
+                                    class="fas fa-phone mr-2"></i>Office : 75300 93730</a></li>
                         <li><a href="mailto:info@snsacademy.org" class="hover:text-white transition"><i
                                     class="fas fa-envelope mr-2"></i>Email : info@snsacademy.org</a></li>
                         <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i
