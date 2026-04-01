@@ -541,7 +541,7 @@ export const BrochurePage = () => {
                 </div>
                 
                 <p class="text-sm text-gray-600">
-                    For printed copies, contact us at <a href="tel:+919629937861" class="text-blue-600 hover:underline">+91 96299 37861</a>
+                    For printed copies, contact us at <a href="tel:+919003655855" class="text-blue-600 hover:underline">90036 55855</a>
                 </p>
             </div>
             

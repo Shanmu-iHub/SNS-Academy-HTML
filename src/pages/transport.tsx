@@ -160,7 +160,7 @@ export const TransportPage = () => {
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="tel:+914224390470" class="bg-white text-orange-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                         <i class="fas fa-phone mr-2"></i>
-                        Call: +91 96299 37861
+                        Call: 90036 55855
                     </a>
                     <a href="/contact" class="bg-white/20 backdrop-blur-lg hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                         <i class="fas fa-envelope mr-2"></i>
@@ -313,11 +313,11 @@ export const TransportPage = () => {
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+914224390470" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                     <i class="fas fa-phone mr-2"></i>
-                    +91 96299 37861
+                    90036 55855
                 </a>
                 <a href="mailto:info@snsacademy.org" class="bg-white/20 backdrop-blur-lg hover:bg-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
                     <i class="fas fa-envelope mr-2"></i>
-                    info@snsacademy.org
+                    Email : info@snsacademy.org
                 </a>
             </div>
         </div>

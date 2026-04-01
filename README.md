@@ -40,7 +40,7 @@
 - 5 Pillars (Learning, Upskilling & Communication, Innovation, Networking, Character Building)
 - SNS Motto: Sincerity, Nobility, Service
 - SNS Tagline: Redesigning Common Minds
-- Contact: +91 422 439 0470, info@snsacademy.org
+- Contact: +91 422 439 0470, Email : info@snsacademy.org
 - Address: Vellakinar, Coimbatore, Tamil Nadu
 
 ### **Sports & Clubs (Complete)**
@@ -329,9 +329,9 @@ git push -f origin main
 
 **SNS Academy Contact:**
 - Phone: +91 422 439 0470
-- Mobile: +91 96299 37861
+- Mobile: 90036 55855
 - WhatsApp: +91 95664 23456
-- Email: info@snsacademy.org
+- Email: Email : info@snsacademy.org
 - Address: Vellakinar, Coimbatore, Tamil Nadu
 
 **Social Media:**
