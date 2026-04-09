@@ -336,7 +336,6 @@
     <section class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div id="stories-container" class="grid lg:grid-cols-3 gap-8">
-            <div id="stories-container" class="grid lg:grid-cols-3 gap-8">
                 <!-- Stories will be dynamically loaded here -->
             </div>
         </div>
@@ -480,12 +479,13 @@
             displayStories('all');
 
             // Add event listeners to tab buttons
-            document.getElementById('tab-all').addEventListener('click', () => switchTab('all'));
-            document.getElementById('tab-academic').addEventListener('click', () => switchTab('academic'));
-            document.getElementById('tab-sports').addEventListener('click', () => switchTab('sports'));
-            document.getElementById('tab-innovation').addEventListener('click', () => switchTab('innovation'));
-            document.getElementById('tab-community').addEventListener('click', () => switchTab('community'));
-            document.getElementById('tab-arts').addEventListener('click', () => switchTab('arts'));
+            const tabs = ['all', 'academic', 'sports', 'innovation', 'community', 'arts'];
+            tabs.forEach(tab => {
+                const element = document.getElementById('tab-' + tab);
+                if (element) {
+                    element.addEventListener('click', () => switchTab(tab));
+                }
+            });
         });
     </script>
 

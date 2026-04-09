@@ -1,7 +1,7 @@
 
 // Automatic Update & Cache Clear Script
 (function () {
-    const CURRENT_VERSION = "2026.02.28.01"; // UPDATE THIS NUMBER TO CLEAR CACHE FOR ALL USERS
+    const CURRENT_VERSION = "2026.04.09.01"; // UPDATE THIS NUMBER TO CLEAR CACHE FOR ALL USERS
     const storedVersion = localStorage.getItem('site_version');
 
     if (storedVersion && storedVersion !== CURRENT_VERSION) {
@@ -40,14 +40,43 @@ headerTemplate.innerHTML = `
         </a>
     </div>
 
-    <!-- Floating CTA Button (Mobile) -->
-    <div class="fixed bottom-6 left-6 z-50 lg:hidden">
-        <a href="/admissions"
-            class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-4 rounded-full shadow-2xl flex items-center space-x-2 pulse-slow">
-            <i class="fas fa-pen-to-square"></i>
-            <span class="font-bold">Apply Now</span>
-        </a>
-    </div>
+    <!-- Floating CTA Button (Mobile) - Removed as per user request -->
+    
+    <!-- Mobile Sticky Bottom Navigation -->
+    <style>
+        @media screen and (max-width: 480px) {
+            body { padding-bottom: 75px !important; }
+            .whatsapp-float { bottom: 90px !important; }
+            .instagram-float { bottom: 150px !important; }
+        }
+    </style>
+    <nav class="fixed bottom-0 left-0 right-0 bg-white z-[100] hidden max-[480px]:flex flex-col shadow-[0_-4px_20px_rgba(0,0,0,0.08)] border-t border-gray-100" style="padding-bottom: env(safe-area-inset-bottom);">
+        <div class="flex justify-between items-center h-[70px] px-1 w-full relative">
+            <a href="/" class="bottom-nav-link flex flex-col items-center justify-center w-1/5 h-full space-y-1 text-orange-500 hover:text-red-600 transition-all duration-300">
+                <i class="fas fa-home text-[22px] mb-0.5"></i>
+                <span class="text-[10px] font-semibold tracking-wide">Home</span>
+            </a>
+            <a href="/facilities" class="bottom-nav-link flex flex-col items-center justify-center w-1/5 h-full space-y-1 text-orange-500 hover:text-red-600 transition-all duration-300">
+                <i class="fas fa-building text-[22px] mb-0.5"></i>
+                <span class="text-[10px] font-semibold tracking-wide">Facilities</span>
+            </a>
+            <a href="/academics/primary" class="bottom-nav-link flex flex-col items-center justify-center w-1/5 h-full space-y-1 text-orange-500 hover:text-red-600 transition-all duration-300 relative z-20 group">
+                <div class="absolute -top-5 flex items-center justify-center w-[54px] h-[54px] bg-white border-[3px] border-gray-50 rounded-full shadow-[0_-3px_10px_rgba(0,0,0,0.1)] group-hover:scale-110 transition-transform duration-300 group-hover:shadow-[0_-5px_15px_rgba(220,38,38,0.2)]">
+                    <i class="fas fa-book-open text-[24px]"></i>
+                </div>
+                <div class="h-[14px]"></div>
+                <span class="text-[10px] font-semibold tracking-tight">Academics</span>
+            </a>
+            <a href="/about" class="bottom-nav-link flex flex-col items-center justify-center w-1/5 h-full space-y-1 text-orange-500 hover:text-red-600 transition-all duration-300">
+                <i class="fas fa-info-circle text-[22px] mb-0.5"></i>
+                <span class="text-[10px] font-semibold tracking-wide">About Us</span>
+            </a>
+            <a href="/admissions" class="bottom-nav-link flex flex-col items-center justify-center w-1/5 h-full space-y-1 text-orange-500 hover:text-red-600 transition-all duration-300">
+                <i class="fas fa-pen-to-square text-[22px] mb-0.5"></i>
+                <span class="text-[10px] font-semibold tracking-wide">Apply Now</span>
+            </a>
+        </div>
+    </nav>
 
     <!-- Navigation -->
     <nav class="bg-white shadow-md sticky top-0 z-40">
@@ -403,6 +432,26 @@ class AppHeader extends HTMLElement {
                 }
             }
         }
+
+        // Highlight bottom navigation links
+        const bottomLinks = this.querySelectorAll('.bottom-nav-link');
+        bottomLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            const isActive = 
+                (href === '/' && (path === '/' || path === '/index.html')) || 
+                (href !== '/' && path.includes(href.split('/')[1]));
+            
+            if (isActive) {
+                link.classList.add('text-red-600');
+                link.classList.remove('text-orange-500');
+                
+                // Add an active shadow for the floating academics button if it is the active one
+                const floatingDiv = link.querySelector('.absolute');
+                if (floatingDiv) {
+                    floatingDiv.classList.add('shadow-[0_-5px_15px_rgba(220,38,38,0.2)]', 'scale-110');
+                }
+            }
+        });
     }
 }
 customElements.define('app-header', AppHeader);
