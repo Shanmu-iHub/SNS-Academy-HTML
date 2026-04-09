@@ -408,8 +408,8 @@
                         margin-top: 28px !important;
                         padding: 18px !important;
                         border-radius: 16px !important;
-                        background: #e94a28 !important;
-                        color: #000 !important;
+                        background: #ea580c !important; /* Primary Orange-600 */
+                        color: #ffffff !important;
                         font-size: 18px !important;
                         font-weight: 600 !important;
                         border: none !important;
@@ -419,7 +419,7 @@
                     }
                     
                     .b24-form-btn:hover {
-                        background: #d43d1f !important;
+                        background: #c2410c !important; /* Orange-700 */
                         transform: translateY(-1px);
                     }
                     
@@ -439,18 +439,71 @@
                 </script>
                 
                 <script>
-                /* Placeholder + Asterisk Fix */
-                setTimeout(function () {
+                /* Placeholder + Asterisk Fix and Dropdown Filter */
+                setInterval(function () {
+                    // 1. Placeholder logic
                     document.querySelectorAll('.b24-form-field').forEach(function (field) {
                         const label = field.querySelector('.b24-form-control-label');
                         const input = field.querySelector('.b24-form-control');
                         
-                        if (label && input) {
+                        if (label && input && !input.dataset.placeholderSet) {
                             let text = label.textContent.replace(/\s*\*$/, '').trim();
                             let required = label.textContent.includes('*');
                             input.placeholder = required ? text + ' *' : text;
+                            input.dataset.placeholderSet = "true";
                         }
                     });
+                    
+                    // 2. Dropdown Filter logic: Exclusive to the CBSE School Dropdown
+                    // A. Native selects
+                    document.querySelectorAll('select').forEach(function(select) {
+                        let hasTarget = Array.from(select.options).some(opt => opt.textContent.includes('SNSACD'));
+                        if (hasTarget) {
+                            Array.from(select.options).forEach(opt => {
+                                let t = opt.textContent.trim();
+                                if (t && !t.includes('SNSACD') && !t.toLowerCase().includes('select')) {
+                                    opt.style.display = 'none';
+                                    opt.hidden = true;
+                                    opt.disabled = true;
+                                }
+                            });
+                        }
+                    });
+                    
+                    // B. Bitrix custom popups
+                    document.querySelectorAll('.b24-window-popup-wrapper, .b24-form-control-list').forEach(function(popup) {
+                        let items = popup.querySelectorAll('[class*="item"], div');
+                        let hasTarget = Array.from(items).some(opt => (opt.textContent || "").includes('SNSACD'));
+                        if (hasTarget) {
+                            items.forEach(function(opt) {
+                                let t = (opt.textContent || "").trim();
+                                if (t && !t.includes('SNSACD') && !t.toLowerCase().includes('select')) {
+                                    if(opt.style) opt.style.display = 'none';
+                                }
+                            });
+                        }
+                    });
+                    
+                    // C. Blacklist fallback
+                    const dropItems = document.querySelectorAll('option, [class*="item"], [class*="popup"]');
+                    const badKeywords = ['analytics vidhya', 'agentic ai', 'boldest ai'];
+                    dropItems.forEach(function(opt) {
+                        let text = (opt.textContent || "").trim();
+                        let lower = text.toLowerCase();
+                        if (badKeywords.some(kw => lower.includes(kw))) {
+                            if(opt.style) opt.style.display = 'none';
+                        }
+                        if (text.includes('SNS') && text.length > 3 && !text.includes('SNSACD') && !text.includes('SNS Academy')) {
+                            if(opt.style) opt.style.display = 'none';
+                        }
+                    });
+                    
+                    // 3. Update submit button text
+                    const submitBtn = document.querySelector('.b24-form-btn');
+                    if (submitBtn && !submitBtn.dataset.textChanged) {
+                        submitBtn.textContent = 'Contact us';
+                        submitBtn.dataset.textChanged = 'true';
+                    }
                 }, 500);
                 </script>
             </div>
