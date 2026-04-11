@@ -662,7 +662,7 @@ export const ContactPage = () => {
                             <i class="fas fa-clock text-3xl text-orange-600 mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-xl mb-2">Visit Us</h3>
-                                <p class="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
+                                <p class="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM<br>SATURDAY: 9:00 AM - 1:00 PM</p>
                             </div>
                         </div>
                     </div>
