@@ -86,7 +86,7 @@ export const SuccessStoriesPage = () => {
                     date: "March 2026",
                     category: "Academic",
                     color: "blue",
-                    link: ""
+                    link: "https://www.instagram.com/p/DWUAKU8k_dh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                 },
                 {
                     title: "Award Ceremony - Dinamalar Pattam",
