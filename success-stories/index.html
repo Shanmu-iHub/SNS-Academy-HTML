@@ -322,11 +322,11 @@
     <section class="py-8 bg-gray-50 border-y">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-wrap items-center justify-center gap-4">
-                <button id="tab-all" class="tab-button px-6 py-2 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition">All Stories</button>
-                <button id="tab-academic" class="tab-button px-6 py-2 bg-white text-gray-700 rounded-full font-semibold hover:bg-gray-100 transition border">Academic Excellence</button>
-                <button id="tab-sports" class="tab-button px-6 py-2 bg-white text-gray-700 rounded-full font-semibold hover:bg-gray-100 transition border">Sports Champions</button>
+                <button id="tab-all" class="tab-button px-6 py-2 bg-blue-600 text-white rounded-full font-semibold transition">All Stories</button>
+                <button id="tab-academic" class="tab-button px-6 py-2 bg-white text-gray-700 border rounded-full font-semibold transition">Academic Excellence</button>
+                <button id="tab-sports" class="tab-button px-6 py-2 bg-white text-gray-700 border rounded-full font-semibold transition">Sports Champions</button>
                 
-                <button id="tab-community" class="tab-button px-6 py-2 bg-white text-gray-700 rounded-full font-semibold hover:bg-gray-100 transition border">Community Impact</button>
+                <button id="tab-community" class="tab-button px-6 py-2 bg-white text-gray-700 border rounded-full font-semibold transition">Community Impact</button>
                 
             </div>
         </div>
@@ -476,7 +476,7 @@
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
             // Display all stories initially
-            displayStories('all');
+            switchTab('all');
 
             // Add event listeners to tab buttons
             const tabs = ['all', 'academic', 'sports', 'innovation', 'community', 'arts'];
