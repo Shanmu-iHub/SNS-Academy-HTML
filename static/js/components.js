@@ -86,7 +86,7 @@ headerTemplate.innerHTML = `
                     <img src="/static/images/Logo.png" alt="SNS Academy Logo" class="h-16 w-auto">
                     <div>
                         <h1 class="text-xl font-bold text-gray-900">SNS Academy</h1>
-                        <p class="text-xs text-gray-500">Design Thinking School</p>
+                        <p class="text-xs text-gray-500">A CBSE School</p>
                     </div>
                 </a>
 
@@ -272,7 +272,7 @@ footerTemplate.innerHTML = `
                             class="h-12 w-auto bg-white rounded p-1">
                         <div>
                             <h3 class="text-white font-bold">SNS Academy</h3>
-                            <p class="text-xs">Design Thinking School</p>
+                            <p class="text-xs">A CBSE School</p>
                         </div>
                     </div>
                     <p class="text-sm leading-relaxed">
@@ -437,14 +437,14 @@ class AppHeader extends HTMLElement {
         const bottomLinks = this.querySelectorAll('.bottom-nav-link');
         bottomLinks.forEach(link => {
             const href = link.getAttribute('href');
-            const isActive = 
-                (href === '/' && (path === '/' || path === '/index.html')) || 
+            const isActive =
+                (href === '/' && (path === '/' || path === '/index.html')) ||
                 (href !== '/' && path.includes(href.split('/')[1]));
-            
+
             if (isActive) {
                 link.classList.add('text-red-600');
                 link.classList.remove('text-orange-500');
-                
+
                 // Add an active shadow for the floating academics button if it is the active one
                 const floatingDiv = link.querySelector('.absolute');
                 if (floatingDiv) {
